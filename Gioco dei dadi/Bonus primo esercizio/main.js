@@ -14,7 +14,7 @@ for (let i=0; i < emailNelServer.length;i++){
     alert(emailRisultato="La sua email è nei nostri registri, benvenuto!");
     break;
     }
-}
+}//aggiungi la email se non è presente
 if (variabileZero == 0){
     alert(emailRisultato= "email non presente");
     inserisciNuovaEmail =prompt ("Aggiungi una nuova email?");
